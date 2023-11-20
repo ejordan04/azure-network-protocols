@@ -57,7 +57,7 @@ Now back in Wireshark, filter for SSH traffic only. From our Windows 10 VM, we'r
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 10 VM attempt to issue it a new IP address using the command ipconfig /renew. Observe the traffic within Wireshark.
+Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 10 VM attempt to issue it a new IP address using the command ipconfig /renew. 
 </p>
 <br />
 
@@ -65,7 +65,7 @@ Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now filter for DNS traffic only. From our Windows 10 VM, we're going to use nslookup to see what google.com's IP address is. 
 </p>
 <br />
 
