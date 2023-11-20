@@ -57,7 +57,7 @@ Now back in Wireshark, filter for SSH traffic only. From our Windows 10 VM, we'r
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 10 VM attempt to issue it a new IP address using the command ipconfig /renew. Observe the traffic within Wireshark.
 </p>
 <br />
 
