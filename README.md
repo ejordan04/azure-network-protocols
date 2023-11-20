@@ -57,7 +57,7 @@ Use Remote Desktop to connect to the Windows 10 VM. Once connected, install Wire
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vZ1Pwqw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now back in Wireshark, filter for SSH traffic only. From our Windows 10 VM, we're going to SSH into our Ubuntu VM using its private IP address. To do this, we use the command ssh username@ip.address. After entering the password, we should have access to the Ubuntu VM, and you can tell because our username changed colors. To leave, type exit.
