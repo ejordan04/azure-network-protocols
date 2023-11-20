@@ -65,7 +65,7 @@ Now back in Wireshark, filter for SSH traffic only. From our Windows 10 VM, we'r
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/V6hfBqR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 10 VM attempt to issue it a new IP address using the command ipconfig /renew. 
@@ -73,7 +73,7 @@ Going back inside Wireshark, filter for DHCP traffic only, and from our Windows 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8JI3uoe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now filter for DNS traffic only. From our Windows 10 VM, we're going to use nslookup to see what google.com's IP address is. 
@@ -81,7 +81,7 @@ Now filter for DNS traffic only. From our Windows 10 VM, we're going to use nslo
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nkyjinO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lastly, filter for RDP traffic or specifically tcp.port==3389. We will see non-stop spam traffic because the RDP protocol is constantly showing us a live stream from one computer to another therefor traffic is always being transmitted.
