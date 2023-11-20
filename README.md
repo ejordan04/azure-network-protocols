@@ -30,7 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3ujdSId.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First, create a resource group in Microsoft Azure. We'll be using two Virtual Machines (VMs) one running Windows 10 and another running Linux (Ubuntu). Make sure they are in the same Virtual Network (Vnet).
